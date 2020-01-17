@@ -97,7 +97,6 @@ public class AppModule {
     @Singleton
     MessageService provideMessageService() {
         return ServiceGenerator.createService(MessageService.class,
-                "AC75820374a20a718b3957c2d9ebaa9e22",
-                "6aeb2945a212a6163f19d4496166af37");
+                "sid", "authtoken");
     }
 }
