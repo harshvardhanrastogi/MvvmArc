@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name_format">%s %s</string>
+    <string name="messenger_activity_name">Messenger</string>
+    <string name="contact_activity_name">Contact</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="send_message">Send Message</string>
+    <string name="send">Send</string>
+</resources>
