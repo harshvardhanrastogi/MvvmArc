@@ -32,7 +32,6 @@ public class ContactListViewModel extends ViewModel implements ContactListAdapte
         LiveData<List<Contact>> contactLiveData = getContactLiveData();
         this.contacts.addSource(contactLiveData, contacts1 -> {
             if(contacts1 != null) {
-                contacts.removeSource(contactLiveData);
                 contacts.postValue(contacts1);
             }
         });
